@@ -1,0 +1,27 @@
+# Credentials and workstation-specific settings (including .env.local).
+.env
+.env.*
+*.env
+
+# Python/uv environments and generated caches.
+.venv*
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.uv*/
+uv
+uv.exe
+uvx
+uvx.exe
+uv.lock
+uv.toml
+
+# Generated candidate programs, logs and saved run data.
+results/
+*.log
+.DS_Store

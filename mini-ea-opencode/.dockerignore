@@ -1,0 +1,4 @@
+# The base image needs no source, credentials, candidates or public assets.
+**
+!Dockerfile
+!.dockerignore
